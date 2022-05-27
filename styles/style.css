@@ -1,0 +1,146 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* ===========================
+        NAVIGATER 
+==============================
+1. Hero-section 
+2. Box-section
+3. Button-section
+4. Icons-section
+5. Form-section
+6. Login-Button
+*/
+
+/* ===========================
+        1. Hero-section 
+============================== */
+.hero-container{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8)), 
+                      url(../assets/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width : 100%;
+}
+/* ===========================
+        2. Box-section
+============================== */
+.box-container{
+    height: 70%;
+    width: 30%;
+    margin: 6% auto;
+    position: relative;
+    background: #fff;
+    padding: 5px;
+    
+}
+/* ===========================
+        3. Button-section
+============================== */
+.btn-container{
+    position: relative;
+    margin: 35px auto;
+    width: 225px;
+    border-radius: 35px;
+    box-shadow: 0 0 20px 9px rgba(44, 234, 209, 0.8);
+    
+}
+
+.btn-switch{
+    padding: 10px 30px;
+    outline: none;
+    border:0;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.btn-color{
+    top:0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to top left , rgb(29, 79, 215), rgb(21, 181, 101));
+    border-radius: 30px; 
+    transition: color 300ms ease-in-out;
+    
+}
+.btn-color:hover{
+    color: white;
+}
+
+/* ===========================
+        4. Icons-section
+============================== */
+.social-icons{
+    margin:30px auto;
+    text-align: center;
+}
+.social-icons img{
+    width: 30px;
+    margin: 0 12px;
+    margin-top: 300px;
+    box-sizing: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}
+/* ===========================
+        5. Form-section
+============================== */
+.form-container{
+    top: 150px;
+    left: 70px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-box{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 65px;
+    position: absolute;
+}
+/* ===========================
+        6. Login-Button
+============================== */
+.btn-submit{
+    margin-left: 15px;
+    width: 85%;
+    padding: 10px 30px;
+    border:0;
+    cursor: pointer;
+    display: block;
+    background:linear-gradient(to top left , rgb(29, 79, 215), rgb(21, 181, 101)); 
+    color: white;
+    text-decoration: none;
+    outline: 2px solid steelblue;
+    transition: all ease-in-out 300ms;
+    border-radius: 30px;
+}
+.btn-submit:hover{
+    outline: 2px solid steelblue;
+    outline-offset: 3px;
+}
+
+
